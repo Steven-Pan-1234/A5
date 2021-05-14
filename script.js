@@ -9,7 +9,7 @@ function cc () {
   a1 = Math.PI * diameter
   document.getElementById('answer').innerHTML = a1
 }
-document.getElementById('calculate').addEventListener("click", area)
+document.getElementById('calculate').addEventListener('click', area)
 function area () {
   diameter = document.getElementById('input').value
   diameter = parseInt(diameter)
